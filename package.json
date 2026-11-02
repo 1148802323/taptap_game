@@ -1,0 +1,14 @@
+{
+  "name": "taptap-game",
+  "uuid": "4121bc2e-a0c5-4949-98e8-0222350dffaf",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "typecheck": "tsc --project tsconfig.json --noEmit --skipLibCheck",
+    "test:smoke": "node tests/gameplay-smoke.cjs"
+  },
+  "devDependencies": {
+    "typescript": "5.8.2"
+  }
+}
